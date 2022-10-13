@@ -35,3 +35,18 @@ if (c > max)
     max = c;
 Console.Write("Max=" + max);
 */
+
+//Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
+/*Console.Write("Введите число: ");
+double A = Convert.ToDouble(Console.ReadLine());
+double div =A/2;
+if(div%2==0)
+{
+    Console.Write("Yes");
+}
+else
+{
+    Console.Write("No");
+}
+*/
