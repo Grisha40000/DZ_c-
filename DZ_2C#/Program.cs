@@ -16,6 +16,7 @@
 
 //Задача 15: Напишите программу, которая принимает на вход цифру, 
 //обозначающую день недели, и проверяет, является ли этот день выходным.
+
 // bool Weekend(int number)
 // {
 //     if(number==6||number==7) 
@@ -30,3 +31,35 @@
 //  int number=Convert.ToInt32(Console.ReadLine());
 //  bool result=Weekend(number);
 //  Console.Write(result);
+
+//Задача 13: Напишите программу, которая выводит третью цифру
+// заданного числа или сообщает, что третьей цифры нет.
+// int Number(int number,int b)//b=количестов символов в числе
+// {
+//     int index=3;
+//     int not=-1;
+//     if(index<=b)
+//     {
+//         while(index<b)
+//         {   int sot=number/10;
+//             number=sot;
+//             index++;
+//         }
+//         int sot2=number%10;
+//         number=sot2;
+//         return number;
+        
+//     }
+//     else
+//     {
+      
+//        return  not;
+//     }
+     
+// }
+// Console.Write("Введите число:");
+// int number=Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите количестов символов в числе:");
+// int b=Convert.ToInt32(Console.ReadLine());
+// int result=Number(number,b );
+// Console.Write($"Внесенное число {number}  полученное {result}");
