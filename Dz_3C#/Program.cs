@@ -1,4 +1,26 @@
-﻿// Задача 21
+﻿// Задача 19
+// Напишите программу, которая принимает на вход 
+// пятизначное число и проверяет, является ли оно палиндромом.
+bool Number(int number)
+{
+    int num1=number%10;
+    int num2=number/10000;
+    int num3=number%100/10;
+    int num4=number/1000%10;
+    if(num1==num2||num3==num4)
+    {
+        return true;
+    }
+    else 
+    return false;
+}
+
+Console.Write("Введите пятизначное число :");
+int number=Convert.ToInt32(Console.ReadLine());
+bool result=Number(number);
+Console.Write(result);
+
+// Задача 21
 // Напишите программу, которая принимает на вход координаты двух
 // точек и находит расстояние между ними в 3D пространстве.
 
@@ -26,6 +48,8 @@
 
 // double res=ShowQuart(x1,x2,y1,y2,z1,z2);
 // Console.Write("Растоение ="+ res);
+
+
 
 // Задача 23 Напишите программу, которая принимает на вход число (N)
 // и выдаёт таблицу кубов чисел от 1 до N.
