@@ -52,10 +52,10 @@
 
 
 
-int[] Array = new int[8];
-for(int x=0;x<Array.Length;x++)
-{
-    Array[x]= new Random().Next(1,8);
-    Console.Write($"{Array[x]},");
-}
+// int[] Array = new int[8];
+// for(int x=0;x<Array.Length;x++)
+// {
+//     Array[x]= new Random().Next(1,8);
+//     Console.Write($"{Array[x]},");
+// }
 
